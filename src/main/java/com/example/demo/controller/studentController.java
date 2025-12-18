@@ -19,4 +19,4 @@ public class studentController{
     public studentEntity addStudent(@Valid @RequestBody studentEntity student ){
         return service.addStudent(student);
     }
-}
+}cc
