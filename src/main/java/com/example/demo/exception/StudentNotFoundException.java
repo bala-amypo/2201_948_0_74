@@ -1,5 +1,7 @@
 package com.example.demo.exception
 
-class StudentNotFoundException extends Exception{
-    
+class StudentNotFoundException extends RuntimeException{
+StudentNotFoundException(String errMsg){
+    super
+}
 }
