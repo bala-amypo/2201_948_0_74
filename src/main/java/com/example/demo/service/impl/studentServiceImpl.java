@@ -32,4 +32,9 @@ public class studentServiceImpl implements studentService{
         newstu.setId(existing.getId())
         repo.save(newstu);
     }
+
+    public studentEntity deleteByID(Long id){
+        studentEntity data=getbyId(id);
+        return repo.deleteByI
+    }
 }
